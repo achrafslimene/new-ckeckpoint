@@ -1,0 +1,70 @@
+body {
+    background-color: blue;
+}
+
+
+/* Reset default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #c11a1a; /* Background color of the navbar */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align the navigation links */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px; /* Add padding to the links */
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    background-color: #bd1515; /* Background color on hover */
+}
+/* Reset default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ca1515; /* Background color of the navbar */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align the navigation links */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Adjust margin-right to create space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin-right from the last item to avoid extra space */
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px; /* Add padding to the links */
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    background-color: #d31717; /* Background color on hover */
+}
